@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.PostMessages", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.Tables", "..\Messages.Tables\Messages.Tables.csproj", "{F7C7946F-8FE4-4491-8C19-AC28E4EAE648}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.ClearMessages", "..\Messages.ClearMessages\Messages.ClearMessages.csproj", "{205C7547-DDCC-4613-ADE9-97AC938C4E31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{F7C7946F-8FE4-4491-8C19-AC28E4EAE648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C7946F-8FE4-4491-8C19-AC28E4EAE648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C7946F-8FE4-4491-8C19-AC28E4EAE648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205C7547-DDCC-4613-ADE9-97AC938C4E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205C7547-DDCC-4613-ADE9-97AC938C4E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205C7547-DDCC-4613-ADE9-97AC938C4E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205C7547-DDCC-4613-ADE9-97AC938C4E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

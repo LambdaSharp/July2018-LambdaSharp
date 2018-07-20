@@ -44,6 +44,13 @@ Functions:
     Sources:
       - Api: GET:/
 
+  - Name: ClearMessages
+    Description: Delete messages in a DynamoDB table
+    Memory: 128
+    Timeout: 30
+    Sources:
+      - Api: DELETE:/
+
   - Name: LoadMessages
     Description: Load messages in to a DynamoDB table from S3
     Memory: 128
