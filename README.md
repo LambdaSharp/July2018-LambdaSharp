@@ -1,4 +1,4 @@
-# July2018-LambdaSharp
+# LambdaSharp Tool Challenge
 
 In this challenge we're going to learn how to use MindTouch's λ# tool to turn simple yaml markup in to a CloudFormation stack and quickly itterate on a stack of functionality provided by a number of Lambda functions and API Gateway
 
