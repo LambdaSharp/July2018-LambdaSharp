@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <Deterministic>true</Deterministic>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <RootNamespace>Messages.LoadMessages</RootNamespace>
@@ -8,7 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
     <PackageReference Include="Amazon.Lambda.S3Events" Version="1.0.2" />
-    <PackageReference Include="MindTouch.LambdaSharp" Version="0.1.2" />
+    <PackageReference Include="MindTouch.LambdaSharp" Version="0.3.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Messages.Tables\Messages.Tables.csproj" />
